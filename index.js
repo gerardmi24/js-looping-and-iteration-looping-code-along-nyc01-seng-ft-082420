@@ -1,2 +1,8 @@
 // Code your solutions in this file
-writeCards(["Gerard", "Torts", "Gurtis", "Sean D"], "Super Bowl")
+const event = (["Gerard", "Torts", "Gurtis", "Sean D"], "Super Bowl")
+
+function writeCards(event) {
+  for (let i = 0; i[0] < event.length; i++) {
+    console.log('Thanks for showing up ${event[i]} to ${event[1]}')
+  }
+}
