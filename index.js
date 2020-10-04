@@ -6,3 +6,8 @@ function writeCards(event) {
     console.log('Thanks for showing up ${event[i]} to ${event[1]}')
   }
 }
+
+let countDown = 5;
+while (countDown > 0) {
+  console.log(countDown--);
+}
