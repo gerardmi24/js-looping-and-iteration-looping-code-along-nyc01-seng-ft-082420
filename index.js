@@ -1,10 +1,10 @@
 // Code your solutions in this file
-const event = (["Gerard", "Torts", "Gurtis", "Sean D"], "Super Bowl")
-
-function writeCards(event) {
-  for (let i = 0; i[0] < event.length; i++) {
-    console.log('Thanks for showing up ${event[i]} to ${event[1]}')
+function writeCards( namesArray, event ) {
+  let thankYouCards = []
+  for ( let i = 0; i < namesArray.length; i++ ) {
+    thankYouCards.push( `Thank you, ${namesArray[i]}, for the wonderful ${event} gift!` )
   }
+  return thankYouCards
 }
 
 function countDown(firstNum) {
